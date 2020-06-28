@@ -1,0 +1,18 @@
+{
+  "name": "dog-ceo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test_ui": "cypress open",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome", 
+    "dogCeoTest": "npm run test -- --spec 'cypress/integration/dog_ceo/*'"
+  },
+  "author": "Morne Bessley",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.9.0"
+  }
+}
