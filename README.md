@@ -22,7 +22,7 @@ Select the browser you would like to execute in the cypress UI.
 
 Select the spec you would like to execute.
 
-## Running our Test in the terminal via commmand line
+## Running our Test in the terminal via command line
 
 The following command will allow you to run all your cypress tests in the terminal:
 
@@ -31,7 +31,7 @@ The following command will allow you to run all your cypress tests in the termin
 
 And if we only want to run one particular file we can use:
 
-    - npx cypress run  --spec "cypress/integration/examples/**file_name.js**"
+    - npx cypress run  --spec "cypress/integration/examples/file_name.js"
 
 To open all files in chrome:
 
@@ -44,6 +44,6 @@ To run a specific set of tests the naming convention of the script would be `nam
 - The **run** keyword is used to execute scripts in your terminal.
 - The **open** keyword is used to open the Cypress UI.
 
-## Some thing to keep in mind
+## Something to keep in mind
 
 The repository contains a `cypress.env.json` file which will not be needed in a real production application. The `cypress.env.json` file has been added for testing, but it would be in the `.gitignore` file under normal circumstances.
